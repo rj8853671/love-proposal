@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Proposal 💖</title>
+    <link rel="stylesheet" href="love.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Love Section -->
+        <div id="love-section" class="card">
+            <h1 id="color">I Love You 💕</h1>
+            <p id="mine">Will you be mine? 🥰</p>
+            <div class="buttons">
+                <button id="yes-btn">Yes</button>
+                <button id="no-btn">No</button>
+            </div>
+        </div>
+
+        <!-- Reply and Gift Section (Hidden initially) -->
+        <div id="reply-gift-section" class="hidden-section">
+            <button id="gift-btn">🎁 See My Gift</button>
+
+            <div id="reply-section" class="reply-section">
+                <p id="your-reply">Your Reply:</p>
+                <input type="text" id="reply-input" placeholder="pleaseeee🥹🥹" />
+                <button id="reply-submit-btn">Submit ➡️</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for gift -->
+    <div id="gift-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2>🎉 Surprise Gift!</h2>
+            <p>I’ve got something special for you... 🎁</p>
+            <div class="video-container">
+                <video class="gift-video" id="video1" controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video class="gift-video" id="video2" controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <button id="next-video-btn" class="next-btn">></button>
+            <p id="love-it">Hope you love it! 🥳</p>
+        </div>
+    </div>
+
+    <script src="love.js"></script>
+</body>
+
+</html>
